@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:text="Send Commands to an Agent" />
+
+ 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/commands"
+        android:prompt="@string/commandsprompt" />
+    
+        <EditText android:id="@+id/number"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Number"  />
+        
+            <EditText android:id="@+id/message"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Message"  />
+            
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+            
+</LinearLayout>
