@@ -1,0 +1,8 @@
+#/bin/sh
+#an installer for Santoku Linux based on Loon's installer for BT5-georgia
+
+##Install webserver and database server. This installs mysql for the database.
+#Set the database password to whatever you like.
+apt-get -y install apache2 mysql-server;
+service mysql start;
+/etc/init.d/apache2 start;
