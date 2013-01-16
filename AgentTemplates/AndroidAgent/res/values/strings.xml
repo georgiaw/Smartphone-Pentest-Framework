@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">This agent is part of the &lt;Mobile Penetration Testing&gt; Framework</string>
+    <string name="app_name">AndroidAgent</string>
+    <string name="picture">picture</string>
+      <string name="key">KEYKEY1</string>
+      <string name="controlnumber">15555215554</string>
+      <string name="controlIP">192.168.1.110</string>
+      <string name="urii">/control</string>
+      <string name="controlpath">/androidagent1</string>
+
+</resources>
