@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Smartphone Pentest Framework Android App"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="218dp"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Bulb Security"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+              <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+              <EditText
+                  android:id="@+id/EditText01"
+                  android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.00"
+                  android:text="IP" >
+
+            
+              </EditText>
+
+              <EditText
+                  android:id="@+id/EditText02"
+                  android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.00"
+                  android:text="Path" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="Key" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+# view AndroidManifest.xml #generated:37
+-keep class com.bulbsecurity.framework.app.CommandHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.bulbsecurity.framework.app.FrameworkAndroidApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.bulbsecurity.framework.app.FrameworkAndroidAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.bulbsecurity.framework.app.FunctionListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.bulbsecurity.framework.app.GetAgentsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.bulbsecurity.framework.app.GetDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+# view AndroidManifest.xml #generated:52
+-keep class com.bulbsecurity.framework.app.InternetPoll { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.bulbsecurity.framework.app.RemoteAttackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.bulbsecurity.framework.app.SMSReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.bulbsecurity.framework.app.SMSService { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.bulbsecurity.framework.app.SendCommandActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.bulbsecurity.framework.app.ServiceAutoStarter { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.bulbsecurity.framework.app.SocialAttackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.bulbsecurity.framework.app.WebUploadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.bulbsecurity.framework.app.WebUploadService2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.bulbsecurity.framework.app.WebUploadService3 { <init>(...); }
+

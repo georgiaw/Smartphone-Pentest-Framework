@@ -1,0 +1,17 @@
+toolchain/build.git              1104ace93b96fa87752eb8198a772592c0846bdd Define correct default gcc target march/mtune/mfpmath flags for x86
+toolchain/gmp.git                e6b9669dafc6a5f83c80b4b4176359b78bccdc90 Add gmp-5.0.5.tar.bz2
+toolchain/mpfr.git               bfcf1bfa38469208aaad8873cd4c68781061d90f add mpfr-3.1.1.tar.bz2
+toolchain/mpc.git                835d16e92eed875638a8b5d552034c3b1aae045b add mpc-1.0.1.tar.gz
+toolchain/cloog.git              b522eced5dd70c8536c15f044078498658fb9219 add cloog-0.17.0.tar.gz
+toolchain/ppl.git                8ba1875b4c5341d902321761022a6d2a0b5b19a4 add ppl-1.0.tar.bz2
+toolchain/expat.git              40172a0ae9d40a068f1e1a48ffcf6a1ccf765ed5 expat package for building gdb-7.3
+toolchain/binutils.git           30fe22e2cc89991b16ab3853f95c7319574456ce Fix $NDK/tests/build/flto with binutils.2.21 ld.bfd
+toolchain/gcc.git                e88c4f52a771a323dfad124e5f4836c2504a0905 Merge "More fix to handle NULL return value of setlocale() in libstdc++/GCC4.7"
+toolchain/gdb.git                87c2a8617d772060c22533ed1626fca7f0649ca0 Merge "Fix default isatized_symbol_value handler"
+toolchain/python.git             88d9000040cfe698e8e32e071880ed8b41e11216 Remove *.info
+toolchain/perl.git               1121daca35c6c692602621eab28d4de19f0b347d Add -Dcc_as_ld to configure
+toolchain/mclinker.git           33345c102c4ab54f7e426eceab6fb7e603dca9ee Add 2 tests for x32 dynamic executables
+toolchain/clang.git (release_32) 85fba57f77f6a2f359329fbc7053a8484f775867 Use intrinsic for unwind header size on le32 ndk target.
+toolchain/llvm.git (release_32)  bcfd53ee685652dfa0ee18c6d658988766c327c4 Bitcode strip tool for le32-none-ndk triple.
+toolchain/clang.git (release_31) 738daf33028b2c952446b6d38d1341e58f13a567 Use intrinsic for unwind header size on le32 ndk target.
+toolchain/llvm.git (release_31)  ae75ca96930ef6cf698a3e9aaff80b7be1467066 Bitcode strip tool for le32-none-ndk triple.
