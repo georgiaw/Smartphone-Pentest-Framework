@@ -1,0 +1,31 @@
+#!/bin/bash
+#contributed by jdjones999
+
+#This creates temp files for variables
+touch ~/Smartphone-Pentest-Framework/frameworkconsole/temp1 && touch ~/Smartphone-Pentest-Framework/frameworkconsole/temp2
+
+#Pulls ip from config file & prints to temp1 file
+sed -n '5p' config | awk -F "=" '{print $2}'| awk '{print $1}'>temp1
+
+#Pulls ip from internal ip & prints to temp2 file
+ifconfig | sed -ne 's/^.*inet \(addr:\)*\([^ ]*\).*/\2/;te' -e 'd;:e' -e '/^127\./d;p'>temp2
+
+#Creates a value for the 2 ip addresses
+#This leaves a residual files for each value
+oip=$(sed -n '1p' temp1)
+
+nip=$(sed -n '1p' temp2)
+
+#This replaces old ip with new/current ip
+sed -i "s/${oip}/${nip}/g" config
+
+#Clean up! 
+#Removes temp files
+#sleep 5
+rm temp1 && rm temp2
+
+#Searches for residual sed files from variables
+find ~/Smartphone-Pentest-Framework/frameworkconsole -name 'sed*' -exec rm {} \;
+
+#Executes SPF
+cd ~/Smartphone-Pentest-Framework/frameworkconsole && ./framework.py
